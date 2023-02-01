@@ -16,7 +16,7 @@
 
 # Local testing
 
-Run localstack. Run it in separate terminal window to see the logs ouput.
+Run localstack. Run it in a separate terminal window to see the logs output.
 ```docker-compose up```
 
 Create S3 bucket and generate some folders structure for testing
@@ -47,7 +47,7 @@ awslocal lambda invoke \
 
 # Production testing
 
-For testing on real AWS account I'm using [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html).
+For testing on a real AWS account I'm using [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html).
 ```brew install aws-sam-cli```
 
 Here is `template.yaml` in this repo used by SAM
