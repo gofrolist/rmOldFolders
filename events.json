@@ -1,0 +1,6 @@
+{
+  "s3_bucket_name": "s3-bucket-name",
+  "days_to_keep": 30,
+  "keep_x_folders": 3,
+  "dryrun": true
+}
